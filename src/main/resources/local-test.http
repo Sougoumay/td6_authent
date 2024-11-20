@@ -1,0 +1,16 @@
+POST http://localhost:8081/api/utilisateurs
+Content-Type: application/json
+
+{
+  "email": "hamid@gmail.com",
+  "password": "testhamidpass"
+}
+
+###
+POST http://localhost:8081/api/login
+Content-Type: application/json
+
+{
+"email": "hamid@gmail.com",
+"password": "testhamidpass"
+}
